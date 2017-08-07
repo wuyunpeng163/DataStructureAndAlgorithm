@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/7/2 21:39:29。
+     1>项目“F:\程序员学习书籍\数据结构和算法\算法学习\Graph\Graph\Graph.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Graph.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>f:\程序员学习书籍\数据结构和算法\算法学习\graph\graph\graph.h(236): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+                 f:\程序员学习书籍\数据结构和算法\算法学习\graph\graph\graph.h(230): 编译类 模板 成员函数“int Graph<ElementType>::GetAvergeDegree(const Graph<ElementType> &)”时
+                 with
+                 [
+                     ElementType=int
+                 ]
+                 f:\程序员学习书籍\数据结构和算法\算法学习\graph\graph\test.cpp(6): 参见对正在编译的类 模板 实例化“Graph<ElementType>”的引用
+                 with
+                 [
+                     ElementType=int
+                 ]
+       Link:
+         d:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\程序员学习书籍\数据结构和算法\算法学习\Graph\Debug\Graph.exe" /NOLOGO /LIBPATH:"D:\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Graph.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\程序员学习书籍\数据结构和算法\算法学习\Graph\Debug\Graph.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\程序员学习书籍\数据结构和算法\算法学习\Graph\Debug\Graph.lib" /MACHINE:X86 Debug\test.obj
+         LINK : 没有找到 F:\程序员学习书籍\数据结构和算法\算法学习\Graph\Debug\Graph.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Graph.vcxproj -> F:\程序员学习书籍\数据结构和算法\算法学习\Graph\Debug\Graph.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\程序员学习书籍\数据结构和算法\算法学习\Graph\Debug\Graph.exe;#1" /manifest Debug\Graph.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Graph.unsuccessfulbuild”。
+         正在对“Debug\Graph.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\程序员学习书籍\数据结构和算法\算法学习\Graph\Graph\Graph.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.22

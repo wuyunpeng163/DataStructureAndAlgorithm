@@ -1,0 +1,4 @@
+﻿  AlgorithmCode.cpp
+d:\datastructureandalgorithm\algorithmproblem\algorithmproblem\algorithmcode.cpp(72): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  AlgorithmProblem.vcxproj -> D:\DataStructureAndAlgorithm\AlgorithmProblem\x64\Debug\AlgorithmProblem.exe
+  AlgorithmProblem.vcxproj -> D:\DataStructureAndAlgorithm\AlgorithmProblem\x64\Debug\AlgorithmProblem.pdb (Partial PDB)
